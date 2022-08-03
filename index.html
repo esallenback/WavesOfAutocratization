@@ -148,8 +148,8 @@
 			const annotations = [
 			{
 				note: {
-				label: "Here is the annotation label",
-				title: "Wave 1"
+				label: "Democratization episodes fell in the early 1920s. Autocratization episodes outnumber democratization episodes for the first time.",
+				title: "Wave 1 (1926-1942)"
 				},
 				type: d3.annotationCalloutCircle,
 				subject: {
@@ -157,10 +157,10 @@
 				radiusPadding: 10   // white space around circle befor connector
 				},
 				color: ["red"],
-				x: 170,
+				x: 190,
 				y: 350,
-				dy: -45,
-				dx: 45
+				dy: -50,
+				dx: 50
 			}
 			]
 		
@@ -191,6 +191,33 @@
 			document.getElementById("prev").removeAttribute("hidden");
 			document.getElementById("scene_select").removeAttribute("hidden");
 
+			const annotations = [
+			{
+				note: {
+				label: "Sudden drop in democratization episodes due to Cold War geopolitics. Autocratization episodes reach new high.",
+				title: "Wave 2 (1961-1977)"
+				},
+				type: d3.annotationCalloutCircle,
+				subject: {
+				radius: 55,         // circle radius
+				radiusPadding: 10   // white space around circle befor connector
+				},
+				color: ["red"],
+				x: 320,
+				y: 300,
+				dy: -50,
+				dx: 50
+			}
+			]
+		
+			const makeAnnotations = d3.annotation()
+				.annotations(annotations)
+				d3.select("#my_dataviz").selectAll('svg')
+				.append("g").style('pointer-events', 'none')
+				.style('box-shadow', '10px 5px 5px gray')
+				.call(makeAnnotations)
+				document.getElementById("next").removeAttribute("hidden");
+				document.getElementById("scene_select").removeAttribute("hidden");
 		}
 
 		async function wave_three() {
@@ -208,6 +235,34 @@
 			document.getElementById("next").removeAttribute("hidden");
 			document.getElementById("prev").removeAttribute("hidden");
 			document.getElementById("scene_select").removeAttribute("hidden");
+
+			const annotations = [
+			{
+				note: {
+				label: "Slow decline in democratization. First time autocratization outnumbers democratization since 1940.",
+				title: "Wave 3 (1994-)"
+				},
+				type: d3.annotationCalloutCircle,
+				subject: {
+				radius: 54,         // circle radius
+				radiusPadding: 10   // white space around circle befor connector
+				},
+				color: ["red"],
+				x: 465,
+				y: 295,
+				dy: -90,
+				dx: 0
+			}
+			]
+		
+			const makeAnnotations = d3.annotation()
+				.annotations(annotations)
+				d3.select("#my_dataviz").selectAll('svg')
+				.append("g").style('pointer-events', 'none')
+				.style('box-shadow', '10px 5px 5px gray')
+				.call(makeAnnotations)
+				document.getElementById("next").removeAttribute("hidden");
+				document.getElementById("scene_select").removeAttribute("hidden");
 		}
 
 		// Update the current slider value (each time you drag the slider handle)
@@ -314,8 +369,8 @@
 
 			years_sliced = YEARS.slice(0, n);
 
-			var margin = {top: 10, right: 30, bottom: 40, left: 60},
-				width = 500 - margin.left - margin.right,
+			var margin = {top: 10, right: 80, bottom: 40, left: 80},
+				width = 570 - margin.left - margin.right,
 				height = 440 - margin.top - margin.bottom;
 
 			document.getElementById("my_dataviz").innerHTML = '';
