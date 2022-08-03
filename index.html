@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" path1tent=
+		"width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="init()">
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+
+		<!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+	    <!-- Slideshow container -->
+		<div class="slideshow-container">
+			<!-- Full-width images with number and caption text -->
+			<div class="mySlides">
+				<h1>The Three Waves of Autocratization: Wave 1</h1>
+			</div>
+			<div class="mySlides">
+				<h1>The Three Waves of Autocratization: Wave 2</h1>
+			</div>
+			<div class="mySlides">
+				<h1>The Three Waves of Autocratization: Wave 3</h1>
+			</div>
+			<div class="mySlides">
+				<h1>The Three Waves of Autocratization: Explore</h1>
+			</div>
+		</div>
+
+
+	<div id="container_top">
+		<div id="container_checks">
+			<p style="padding-right: 5px;">Year:</p>
+			<p id="year_selected"></p>
+		</div>
+		<input type="range" min="1900" max="2017" value="1900" class="slider" id="myRange">
+
+		<div id="container_checks">
+			<input type="checkbox" id="autocratize_dem" style="padding-top: 0" onclick="load_chart()" checked>
+			<p style="color:red">Autocratization episodes</p>
+		</div>
+		<div id="container_checks">
+			<input type="checkbox" id="autocratize_auto" onclick="load_chart()" checked>
+			<p style="color:blue">Autocratization episodes</p>
+		</div>
+		<div id="container_checks">
+			<input type="checkbox" id="democratize_auto" onclick="load_chart()" checked>
+			<p style="color:green">Democratization episodes</p>
+		</div>
+	</div>
+	
+	<script>
+		// https://www.w3schools.com/howto/howto_js_rangeslider.asp
+		var slider = document.getElementById("myRange");
+		var output = document.getElementById("year_selected");
+		output.innerHTML = slider.value; // Display the default slider value
+
+		slider.oninput = function() {
+		output.innerHTML = this.value;
+		load_chart()
+		}
+	</script>
+
+	<style>
+		.myDot:hover {
+			opacity: 1;
+		}
+	</style>
+	<div id="container">
+		<div style="text-align:left">
+			<span class="prev" id="prev" onclick="plusSlides(-1)" hidden="hidden">&#10096;</span>
+		</div>
+		<div id="my_dataviz"></div>
+		<div id ="year_clicked" hidden="hidden"></div>
+		<div id="region_checks" hidden="hidden"></div>
+		<div>
+			<span class="next" id="next" onclick="plusSlides(1)">&#10097;</span>
+		</div>
+	</div>
+	 <!-- The dots/circles -->
+	<div id="scene_select" style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+	</div>
+	<script>
+		var slider = document.getElementById("myRange");
+		var output = document.getElementById("year_selected");
+		output.innerHTML = slider.value; // Display the default slider value
+		// myRange.disabled = true;
+
+		// GLOBAL VARS
+		var AUTO_DATA = []
+		var DEM_DATA = []
+		var YEARS = [];
+		var AUTOCRATIZE_DEM = [];
+		var AUTOCRATIZE_AUTO = [];
+		var DEMOCRATIZE_AUTO = [];
+		var REGIONS = [];
+		function sleep(ms) {
+			return new Promise(resolve => setTimeout(resolve, ms));
+		}
+		
+		async function init() {
+			myRange.disabled = true;
+			AUTO_DATA = await d3.csv('autocratization_episodes.csv')
+			DEM_DATA = await d3.csv('democratization_episodes2020.csv')
+			for (let i = 1900; i <= 2017; i++) {
+				YEARS.push(i);
+				AUTOCRATIZE_DEM.push(AUTO_DATA.filter(e => { return (e.Year == i.toString() && e.Original_regime == 'Democracy')}).length);
+				AUTOCRATIZE_AUTO.push(AUTO_DATA.filter(e => { return e.Year == i.toString()}).length);
+				DEMOCRATIZE_AUTO.push(DEM_DATA.filter(e => { return e.Year == i.toString()}).length);
+			}
+			let result = DEM_DATA.map(a => a.Region);
+			REGIONS = [... new Set(result)]
+			d3.select('#region_checks').append("h4").html("Regions");
+			for (const item in REGIONS) {
+				var new_div = d3.select('#region_checks').append("div").attr("id", "container_checks");
+
+				new_div.append("input")
+					.attr("id", "region" + item)
+					.attr("type", "checkbox")
+					.attr("checked", true)
+					.attr("onclick", "load_chart()");
+				new_div.append("p").html(REGIONS[item]);
+			}
+			load_chart();
+			// d3.select('#region_checks').data(REGIONS).selectAll('p').enter().append("p").html(d)
+		}
+
+		async function wave_one() {
+			document.getElementById("prev").setAttribute("hidden", "hidden");
+			document.getElementById("next").setAttribute("hidden", "hidden");
+			document.getElementById("scene_select").setAttribute("hidden", "hidden");
+			document.getElementById("year_selected").innerHTML = 1900;
+			slider.value = 1900;
+			for (let i = 0; i <= 41; i++) {
+				slider.stepUp();
+				document.getElementById("year_selected").innerHTML =  parseInt(document.getElementById("year_selected").innerHTML) + 1;
+				load_chart();
+				await sleep(40);
+			}
+			document.getElementById("next").removeAttribute("hidden");
+			document.getElementById("scene_select").removeAttribute("hidden");
+
+		}
+
+		async function wave_two() {
+			document.getElementById("prev").setAttribute("hidden", "hidden");
+			document.getElementById("next").setAttribute("hidden", "hidden");
+			document.getElementById("scene_select").setAttribute("hidden", "hidden");
+			document.getElementById("year_selected").innerHTML = 1942;
+			slider.value = 1942;
+			for (let i = 0; i <= 34; i++) {
+				slider.stepUp();
+				document.getElementById("year_selected").innerHTML =  parseInt(document.getElementById("year_selected").innerHTML) + 1;
+				load_chart();
+				await sleep(40);
+			}
+			document.getElementById("next").removeAttribute("hidden");
+			document.getElementById("prev").removeAttribute("hidden");
+			document.getElementById("scene_select").removeAttribute("hidden");
+
+		}
+
+		async function wave_three() {
+			document.getElementById("prev").setAttribute("hidden", "hidden");
+			document.getElementById("next").setAttribute("hidden", "hidden");
+			document.getElementById("scene_select").setAttribute("hidden", "hidden");
+			document.getElementById("year_selected").innerHTML = 1977;
+			slider.value = 1977;
+			for (let i = 0; i <= 39; i++) {
+				slider.stepUp();
+				document.getElementById("year_selected").innerHTML =  parseInt(document.getElementById("year_selected").innerHTML) + 1;
+				load_chart();
+				await sleep(40);
+			}
+			document.getElementById("next").removeAttribute("hidden");
+			document.getElementById("prev").removeAttribute("hidden");
+			document.getElementById("scene_select").removeAttribute("hidden");
+		}
+
+		// Update the current slider value (each time you drag the slider handle)
+		slider.oninput = function(auto_data) {
+			output.innerHTML = this.value;
+			load_chart()
+		}
+
+		// TODO add regional filters
+		function update_year_div(d, array) {
+			year_div = d3.select('#year_clicked');
+			document.getElementById("year_clicked").removeAttribute("hidden");
+			year_div.selectAll('p').remove();
+			year_div.selectAll('h4').remove();
+			year_div.append('h4').html(d);
+			// var episodes = array.filter(e => { return e.Year == parseInt(d)});
+			year_div.selectAll('p').data(array).enter().append('p')
+				.html(function(d, i) { return d.Country + ' ' + d.Begin + '-' + d.End});
+
+		}
+
+		var auto_dem_tmp = [];
+		var auto_auto_tmp = [];
+		var dem_auto_tmp = [];
+
+		var auto_dem_tmp_full = [];
+		var auto_auto_tmp_full = [];
+		var dem_auto_tmp_full = [];
+
+		// https://d3-graph-gallery.com/graph/line_basic.html
+		function load_chart() {
+			d3.select('#year_clicked').attr("hidden", "hidden");
+
+			year_selected = parseInt(document.getElementById("year_selected").innerHTML);
+			var n = year_selected - 1900 + 1;
+			auto_dem_tmp = new Array(n); for (let i=0; i<n; ++i) auto_dem_tmp[i] = 0;
+			auto_auto_tmp = new Array(n); for (let i=0; i<n; ++i) auto_auto_tmp[i] = 0;
+			dem_auto_tmp = new Array(n); for (let i=0; i<n; ++i) dem_auto_tmp[i] = 0;
+
+			var region_names = [];
+			for (let i = 0; i < REGIONS.length; i++) {
+				if (document.getElementById('region' + i).checked) {
+					region_names.push(REGIONS[i]);
+				}
+			}
+			for (let j = 1900; j <= year_selected; j++) {
+
+				auto_dem_tmp[j - 1900] = AUTO_DATA.filter(function(e) {
+					var res = [];
+					for (let i = 0; i < region_names.length; i++) {
+						if (e.Region == region_names[i] && e.Year == j.toString() && e.Original_regime == 'Democracy') {
+							return true;
+						}
+					}
+					return false;
+				}).length;
+				auto_auto_tmp[j - 1900] = AUTO_DATA.filter(function(e) {
+					var res = [];
+					for (let i = 0; i < region_names.length; i++) {
+						if (e.Region == region_names[i] && e.Year == j.toString()) {
+							return true;
+						}
+					}
+					return false;
+				}).length;
+				dem_auto_tmp[j - 1900] = DEM_DATA.filter(function(e) {
+					var res = [];
+					for (let i = 0; i < region_names.length; i++) {
+						if (e.Region == region_names[i] && e.Year == j.toString()) {
+							return true;
+						}
+					}
+					return false;
+				}).length;
+			}
+
+			var auto_dem_tmp_full = AUTO_DATA.filter(function(e) {
+					var res = [];
+					for (let i = 0; i < region_names.length; i++) {
+						if (e.Region == region_names[i] && e.Original_regime == 'Democracy') {
+							return true;
+						}
+					}
+					return false;
+				});
+			var auto_auto_tmp_full = AUTO_DATA.filter(function(e) {
+					var res = [];
+					for (let i = 0; i < region_names.length; i++) {
+						if (e.Region == region_names[i]) {
+							return true;
+						}
+					}
+					return false;
+				});
+			var dem_auto_tmp_full =  DEM_DATA.filter(function(e) {
+					var res = [];
+					for (let i = 0; i < region_names.length; i++) {
+						if (e.Region == region_names[i]) {
+							return true;
+						}
+					}
+					return false;
+				});
+
+			years_sliced = YEARS.slice(0, n);
+
+			var margin = {top: 10, right: 30, bottom: 40, left: 60},
+				width = 500 - margin.left - margin.right,
+				height = 440 - margin.top - margin.bottom;
+
+			document.getElementById("my_dataviz").innerHTML = '';
+			var svg = d3.select("#my_dataviz")
+			.append("svg")
+				.attr("width", width + margin.left + margin.right)
+				.attr("height", height + margin.top + margin.bottom)
+			.append("g")
+				.attr("transform",
+					"translate(" + margin.left + "," + margin.top + ")");
+
+
+			//https://www.educative.io/answers/how-to-create-a-line-chart-using-d3
+			svg.append('text')
+				.attr('x', width/2)
+				.attr('y', height + margin.top + 25)
+				.attr('text-anchor', 'middle')
+				.style('font-size', 18)
+				.text('Year');
+				
+			svg.append('text')
+				.attr('text-anchor', 'middle')
+				.attr('transform', 'translate(-40,' + height/2 + ')rotate(-90)')
+				.style('font-size', 18)
+				.text('# of Countries');
+
+			// Add X axis
+			var x = d3.scaleLinear()
+				.domain([1900, 2017])
+				.range([0, width]);
+			svg.append("g")
+				.attr("transform", "translate(0," + height + ")")
+				.call(d3.axisBottom(x).tickFormat(d3.format("d")));
+
+			// Add Y axis
+			var y = d3.scaleLinear()
+				.domain([0, 70])
+				.range([ height, 0 ]);
+			svg.append("g").call(d3.axisLeft(y));
+		
+			// https://d3-graph-gallery.com/graph/connectedscatter_tooltip.html
+			var tooltip = d3.select("#my_dataviz")
+				.append("div")
+				.style("display", "none")
+				.attr("id", "tooltip")
+				.style("position", "absolute")
+				.style("background-color", "white")
+				.style("border", "solid")
+				.style("border-width", "1px")
+				.style("border-radius", "3px")
+				.style("padding", "5px");
+
+			var mouseover = function(d) {
+				tooltip.style("display", "block");
+			}
+			
+			var mouseleave = function(d) {
+				tooltip.style("display", "none");
+			}
+			
+
+			if (document.getElementById("autocratize_dem").checked == true) {
+				svg.append("path")
+					.datum(years_sliced)
+					.attr("fill", "none")
+					.attr("stroke", "red")
+					.attr("stroke-width", 1.5)
+					.attr("d", d3.line()
+						.y(function(d, i) { 
+							return y(parseInt(auto_dem_tmp[i])); })
+						.x(function(d) {
+							return x(parseInt(d)) })
+						);
+
+				svg.append('g')
+					.selectAll("dot")
+					.data(years_sliced)
+					.enter()
+					.append("circle")
+					.attr("class", "myDot")
+					.attr("cx", function (d) { return x(d); } )
+					.attr("cy", function (d, i) { return y(parseInt(auto_dem_tmp[i])); } )
+					.attr("r", 4)
+					.attr("opacity", 0)
+					.attr("fill", "red")
+					.on("mouseover", mouseover)
+					.on("mousemove", function(d, i) {
+						tooltip.selectAll('p').remove();
+						tooltip.selectAll('h4').remove();
+						tooltip.append('h4').html(d);
+						tooltip.append('p').html(auto_dem_tmp[i]);
+						tooltip
+							.style("left", (d3.mouse(this)[0]) + "px")
+							.style("top", (d3.mouse(this)[1]) + "px")
+					})
+					.on("click", function(d) {
+						update_year_div(d, auto_dem_tmp.filter(e => { return (e.Year == d)}));
+					})
+					.on("mouseleave", mouseleave);
+			}
+
+			if (document.getElementById("autocratize_auto").checked == true) {
+				svg.append("path")
+				.datum(years_sliced)
+				.attr("fill", "none")
+				.attr("stroke", "blue")
+				.attr("stroke-width", 1.5)
+				.attr("d", d3.line()
+					.y(function(d, i) { 
+						return y(parseInt(auto_auto_tmp[i])); })
+					.x(function(d) {
+						return x(parseInt(d)) })
+					);
+				svg.append('g')
+					.selectAll("dot")
+					.data(years_sliced)
+					.enter()
+					.append("circle")
+					.attr("class", "myDot")
+					.attr("cx", function (d) { return x(d); } )
+					.attr("cy", function (d, i) { return y(parseInt(auto_auto_tmp[i])); } )
+					.attr("r", 4)
+					.attr("opacity", 0)
+					.attr("fill", "blue")
+					.on("mouseover", mouseover)
+					.on("mousemove", function(d, i) {
+						tooltip.selectAll('p').remove();
+						tooltip.selectAll('h4').remove();
+						tooltip.append('h4').html(d);
+						tooltip.append('p').html(auto_auto_tmp[i]);
+						tooltip
+							.style("left", (d3.mouse(this)[0]+40) + "px")
+							.style("top", (d3.mouse(this)[1]) + "px")
+					})
+					.on("click", function(d) {
+						update_year_div(d, auto_auto_tmp_full.filter(e => { return (e.Year == d)}));
+					})
+					.on("mouseleave", mouseleave);
+			}
+
+			if (document.getElementById("democratize_auto").checked == true) {
+				svg.append("path")
+					.datum(years_sliced)
+					.attr("fill", "none")
+					.attr("stroke", "green")
+					.attr("stroke-width", 1.5)
+					.attr("d", d3.line()
+						.y(function(d, i) { 
+							return y(parseInt(dem_auto_tmp[i])); })
+						.x(function(d) {
+							return x(parseInt(d)) })
+						);
+				
+				svg.append('g')
+					.selectAll("dot")
+					.data(years_sliced)
+					.enter()
+					.append("circle")
+					.attr("class", "myDot")
+					.attr("cx", function (d) { return x(d); } )
+					.attr("cy", function (d, i) { return y(parseInt(dem_auto_tmp[i])); } )
+					.attr("r", 4)
+					.attr("opacity", 0)
+					.attr("fill", "green")
+					.on("mouseover", mouseover)
+					.on("mousemove", function(d, i) {
+						tooltip.selectAll('p').remove();
+						tooltip.selectAll('h4').remove();
+						tooltip.append('h4').html(d);
+						tooltip.append('p').html(dem_auto_tmp[i]);
+						tooltip
+							.style("left", (d3.mouse(this)[0]+70) + "px")
+							.style("top", (d3.mouse(this)[1]) + "px")
+					})
+					.on("click", function(d) {
+						update_year_div(d, dem_auto_tmp_full.filter(e => { return (e.Year == d)}));
+					})
+					.on("mouseleave", mouseleave);
+			}
+
+			const important_years = [1926, 1942, 1961, 1977, 1994];
+			important_years.forEach(labelYear);
+
+			function labelYear(year) {
+				if (year  - 1900 <= n) {
+					svg.append("line")
+						.attr("x1", x(year))
+						.attr("y1", y(0))
+						.attr("x2", x(year))
+						.attr("y2", y(70))
+						.style("stroke-width", 2)
+						.style("stroke-dasharray", "5,5")
+						.style("stroke", "grey")
+						.style("fill", "none");
+					if (year == 1942) {
+						svg.append("text")
+							.attr("x", x(1927))
+							.attr("y", y(65))
+							.html("Wave 1")
+					}
+					if (year == 1977) {
+						svg.append("text")
+							.attr("x", x(1962))
+							.attr("y", y(65))
+							.html("Wave 2")
+					}
+
+					if (year == 1994) {
+						svg.append("text")
+							.attr("x", x(2000))
+							.attr("y", y(65))
+							.html("Wave 3")
+					}
+				}
+			}
+		}
+	</script>
+	<script>
+		// document.getElementsByClassName("prev").style.display="none";
+		let slideIndex = 1;
+		showSlides(slideIndex);
+		// Next/previous controls
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			let slides = document.getElementsByClassName("mySlides");
+			if (n == 1) {
+				wave_one();
+			}
+			if (n == 2) {
+				wave_two();
+			}
+			if (n == 3) {
+				wave_three();
+				document.getElementById("myRange").disabled = true;
+				// d3.select("#region_checks").attr("hidden", "hidden");
+			}
+			if (n == slides.length) {
+				document.getElementById("next").setAttribute("hidden", "hidden"); 
+				document.getElementById("year_selected").innerHTML = 2017;
+				slider.value = 2017;
+				load_chart();
+				document.getElementById("region_checks").removeAttribute("hidden");
+				document.getElementById("myRange").disabled = false;
+			}
+
+			for (let i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slides[slideIndex - 1].style.display = "block";
+
+			let dots = document.getElementsByClassName("dot");
+			for (let i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			dots[slideIndex - 1].className += " active";
+        }
+	</script>
+
+	<script>
+
+		const annotations = [
+		{
+			note: {
+			label: "Here is the annotation label",
+			title: "Annotation title"
+			},
+			type: d3.annotationCalloutCircle,
+			subject: {
+			radius: 50,         // circle radius
+			radiusPadding: 10   // white space around circle befor connector
+			},
+			color: ["red"],
+			x: 80,
+			y: 180,
+			dy: -60,
+			dx: 60
+		}
+		]
+		
+		const makeAnnotations = d3.annotation()
+			.annotations(annotations)
+			d3.select("#example4")
+			.append("g")
+			.call(makeAnnotations)
+		
+	</script>
+</body>
+
+</html>

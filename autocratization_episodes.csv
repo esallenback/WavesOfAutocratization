@@ -1,0 +1,805 @@
+Country,Year,Begin,End,EDI before,EDI end,Type,Time,Original_regime,Region
+Argentina,1928,1928,1931,0.53,0.12,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Argentina,1929,1928,1931,0.53,0.12,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Argentina,1930,1928,1931,0.53,0.12,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Argentina,1931,1928,1931,0.53,0.12,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Argentina,1966,1966,1967,0.53,0.1,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Argentina,1967,1966,1967,0.53,0.1,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Argentina,1975,1975,1977,0.57,0.07,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Argentina,1976,1975,1977,0.57,0.07,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Argentina,1977,1975,1977,0.57,0.07,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Austria,1931,1931,1935,0.73,0.1,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Austria,1932,1931,1935,0.73,0.1,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Austria,1933,1931,1935,0.73,0.1,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Austria,1934,1931,1935,0.73,0.1,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Austria,1935,1931,1935,0.73,0.1,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Belgium,1914,1914,1915,0.58,0.18,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Belgium,1915,1914,1915,0.58,0.18,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Belgium,1940,1940,1941,0.57,0.13,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Belgium,1941,1940,1941,0.57,0.13,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Chile,1973,1973,1975,0.71,0.07,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Chile,1974,1973,1975,0.71,0.07,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Chile,1975,1973,1975,0.71,0.07,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Czech Republic,1930,1930,1940,0.81,0.07,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Czech Republic,1931,1930,1940,0.81,0.07,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Czech Republic,1932,1930,1940,0.81,0.07,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Czech Republic,1933,1930,1940,0.81,0.07,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Czech Republic,1934,1930,1940,0.81,0.07,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Czech Republic,1935,1930,1940,0.81,0.07,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Czech Republic,1936,1930,1940,0.81,0.07,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Czech Republic,1937,1930,1940,0.81,0.07,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Czech Republic,1938,1930,1940,0.81,0.07,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Czech Republic,1939,1930,1940,0.81,0.07,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Czech Republic,1940,1930,1940,0.81,0.07,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Denmark,1940,1940,1944,0.87,0.21,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Denmark,1941,1940,1944,0.87,0.21,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Denmark,1942,1940,1944,0.87,0.21,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Denmark,1943,1940,1944,0.87,0.21,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Denmark,1944,1940,1944,0.87,0.21,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Estonia,1932,1932,1935,0.74,0.13,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Estonia,1933,1932,1935,0.74,0.13,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Estonia,1934,1932,1935,0.74,0.13,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Estonia,1935,1932,1935,0.74,0.13,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Fiji,1987,1987,1988,0.62,0.23,Military Coup,Pre-third Wave,Democracy,East Asia and Pacific
+Fiji,1988,1987,1988,0.62,0.23,Military Coup,Pre-third Wave,Democracy,East Asia and Pacific
+France,1939,1939,1941,0.56,0.09,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+France,1940,1939,1941,0.56,0.09,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+France,1941,1939,1941,0.56,0.09,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Germany,1930,1930,1934,0.63,0.08,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Germany,1931,1930,1934,0.63,0.08,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Germany,1932,1930,1934,0.63,0.08,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Germany,1933,1930,1934,0.63,0.08,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Germany,1934,1930,1934,0.63,0.08,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Ghana,1981,1981,1982,0.59,0.11,Military Coup,Pre-third Wave,Democracy,Sub-Saharan Africa
+Ghana,1982,1981,1982,0.59,0.11,Military Coup,Pre-third Wave,Democracy,Sub-Saharan Africa
+India,1971,1971,1975,0.7,0.43,Autogolpe,Pre-third Wave,Democracy,South Asia
+India,1972,1971,1975,0.7,0.43,Autogolpe,Pre-third Wave,Democracy,South Asia
+India,1973,1971,1975,0.7,0.43,Autogolpe,Pre-third Wave,Democracy,South Asia
+India,1974,1971,1975,0.7,0.43,Autogolpe,Pre-third Wave,Democracy,South Asia
+India,1975,1971,1975,0.7,0.43,Autogolpe,Pre-third Wave,Democracy,South Asia
+Indonesia,1958,1958,1961,0.54,0.16,Autogolpe,Pre-third Wave,Democracy,East Asia and Pacific
+Indonesia,1959,1958,1961,0.54,0.16,Autogolpe,Pre-third Wave,Democracy,East Asia and Pacific
+Indonesia,1960,1958,1961,0.54,0.16,Autogolpe,Pre-third Wave,Democracy,East Asia and Pacific
+Indonesia,1961,1958,1961,0.54,0.16,Autogolpe,Pre-third Wave,Democracy,East Asia and Pacific
+Latvia,1934,1934,1935,0.74,0.13,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Latvia,1935,1934,1935,0.74,0.13,Autogolpe,Pre-third Wave,Democracy,Europe and Central Asia
+Lithuania,1923,1923,1927,0.64,0.15,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Lithuania,1924,1923,1927,0.64,0.15,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Lithuania,1925,1923,1927,0.64,0.15,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Lithuania,1926,1923,1927,0.64,0.15,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Lithuania,1927,1923,1927,0.64,0.15,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Luxembourg,1940,1940,1941,0.7,0.14,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Luxembourg,1941,1940,1941,0.7,0.14,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Netherlands,1937,1937,1941,0.77,0.18,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Netherlands,1938,1937,1941,0.77,0.18,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Netherlands,1939,1937,1941,0.77,0.18,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Netherlands,1940,1937,1941,0.77,0.18,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Netherlands,1941,1937,1941,0.77,0.18,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Norway,1937,1937,1942,0.75,0.12,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Norway,1938,1937,1942,0.75,0.12,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Norway,1939,1937,1942,0.75,0.12,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Norway,1940,1937,1942,0.75,0.12,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Norway,1941,1937,1942,0.75,0.12,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Norway,1942,1937,1942,0.75,0.12,Invasion,Pre-third Wave,Democracy,Europe and Central Asia
+Peru,1990,1990,1992,0.69,0.26,Autogolpe,Pre-third Wave,Democracy,Latin America and Caribbean
+Peru,1991,1990,1992,0.69,0.26,Autogolpe,Pre-third Wave,Democracy,Latin America and Caribbean
+Peru,1992,1990,1992,0.69,0.26,Autogolpe,Pre-third Wave,Democracy,Latin America and Caribbean
+Poland,1926,1926,1931,0.64,0.23,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Poland,1927,1926,1931,0.64,0.23,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Poland,1928,1926,1931,0.64,0.23,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Poland,1929,1926,1931,0.64,0.23,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Poland,1930,1926,1931,0.64,0.23,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Poland,1931,1926,1931,0.64,0.23,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Spain,1936,1936,1940,0.58,0.07,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Spain,1937,1936,1940,0.58,0.07,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Spain,1938,1936,1940,0.58,0.07,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Spain,1939,1936,1940,0.58,0.07,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Spain,1940,1936,1940,0.58,0.07,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Sri Lanka,1977,1977,1983,0.62,0.48,Autogolpe,Pre-third Wave,Democracy,South Asia
+Sri Lanka,1978,1977,1983,0.62,0.48,Autogolpe,Pre-third Wave,Democracy,South Asia
+Sri Lanka,1979,1977,1983,0.62,0.48,Autogolpe,Pre-third Wave,Democracy,South Asia
+Sri Lanka,1980,1977,1983,0.62,0.48,Autogolpe,Pre-third Wave,Democracy,South Asia
+Sri Lanka,1981,1977,1983,0.62,0.48,Autogolpe,Pre-third Wave,Democracy,South Asia
+Sri Lanka,1982,1977,1983,0.62,0.48,Autogolpe,Pre-third Wave,Democracy,South Asia
+Sri Lanka,1983,1977,1983,0.62,0.48,Autogolpe,Pre-third Wave,Democracy,South Asia
+Suriname,1980,1980,1981,0.78,0.18,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Suriname,1981,1980,1981,0.78,0.18,Military Coup,Pre-third Wave,Democracy,Latin America and Caribbean
+Turkey,1977,1977,1981,0.65,0.12,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Turkey,1978,1977,1981,0.65,0.12,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Turkey,1979,1977,1981,0.65,0.12,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Turkey,1980,1977,1981,0.65,0.12,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Turkey,1981,1977,1981,0.65,0.12,Military Coup,Pre-third Wave,Democracy,Europe and Central Asia
+Uruguay,1968,1968,1974,0.78,0.1,Autogolpe,Pre-third Wave,Democracy,Latin America and Caribbean
+Uruguay,1969,1968,1974,0.78,0.1,Autogolpe,Pre-third Wave,Democracy,Latin America and Caribbean
+Uruguay,1970,1968,1974,0.78,0.1,Autogolpe,Pre-third Wave,Democracy,Latin America and Caribbean
+Uruguay,1971,1968,1974,0.78,0.1,Autogolpe,Pre-third Wave,Democracy,Latin America and Caribbean
+Uruguay,1972,1968,1974,0.78,0.1,Autogolpe,Pre-third Wave,Democracy,Latin America and Caribbean
+Uruguay,1973,1968,1974,0.78,0.1,Autogolpe,Pre-third Wave,Democracy,Latin America and Caribbean
+Uruguay,1974,1968,1974,0.78,0.1,Autogolpe,Pre-third Wave,Democracy,Latin America and Caribbean
+Armenia,1993,1993,1998,0.67,0.41,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Armenia,1994,1993,1998,0.67,0.41,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Armenia,1995,1993,1998,0.67,0.41,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Armenia,1996,1993,1998,0.67,0.41,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Armenia,1997,1993,1998,0.67,0.41,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Armenia,1998,1993,1998,0.67,0.41,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Bangladesh,2002,2002,2007,0.57,0.23,Military Coup,Third Wave,Democracy,South Asia
+Bangladesh,2003,2002,2007,0.57,0.23,Military Coup,Third Wave,Democracy,South Asia
+Bangladesh,2004,2002,2007,0.57,0.23,Military Coup,Third Wave,Democracy,South Asia
+Bangladesh,2005,2002,2007,0.57,0.23,Military Coup,Third Wave,Democracy,South Asia
+Bangladesh,2006,2002,2007,0.57,0.23,Military Coup,Third Wave,Democracy,South Asia
+Bangladesh,2007,2002,2007,0.57,0.23,Military Coup,Third Wave,Democracy,South Asia
+Belarus,1995,1995,2005,0.6,0.23,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Belarus,1996,1995,2005,0.6,0.23,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Belarus,1997,1995,2005,0.6,0.23,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Belarus,1998,1995,2005,0.6,0.23,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Belarus,1999,1995,2005,0.6,0.23,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Belarus,2000,1995,2005,0.6,0.23,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Belarus,2001,1995,2005,0.6,0.23,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Belarus,2002,1995,2005,0.6,0.23,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Belarus,2003,1995,2005,0.6,0.23,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Belarus,2004,1995,2005,0.6,0.23,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Belarus,2005,1995,2005,0.6,0.23,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Bolivia,2006,2006,2015,0.78,0.63,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Bolivia,2007,2006,2015,0.78,0.63,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Bolivia,2008,2006,2015,0.78,0.63,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Bolivia,2009,2006,2015,0.78,0.63,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Bolivia,2010,2006,2015,0.78,0.63,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Bolivia,2011,2006,2015,0.78,0.63,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Bolivia,2012,2006,2015,0.78,0.63,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Bolivia,2013,2006,2015,0.78,0.63,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Bolivia,2014,2006,2015,0.78,0.63,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Bolivia,2015,2006,2015,0.78,0.63,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Brazil,2012,2012,2017,0.89,0.75,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Brazil,2013,2012,2017,0.89,0.75,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Brazil,2014,2012,2017,0.89,0.75,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Brazil,2015,2012,2017,0.89,0.75,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Brazil,2016,2012,2017,0.89,0.75,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Brazil,2017,2012,2017,0.89,0.75,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Burkina Faso,2014,2014,2015,0.65,0.37,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Burkina Faso,2015,2014,2015,0.65,0.37,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Comoros,1999,1999,2000,0.5,0.23,Military Coup,Third Wave,Democracy,Sub-Saharan Africa
+Comoros,2000,1999,2000,0.5,0.23,Military Coup,Third Wave,Democracy,Sub-Saharan Africa
+Comoros,2015,2015,2017,0.61,0.46,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Comoros,2016,2015,2017,0.61,0.46,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Comoros,2017,2015,2017,0.61,0.46,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Croatia,2013,2013,2017,0.85,0.67,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Croatia,2014,2013,2017,0.85,0.67,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Croatia,2015,2013,2017,0.85,0.67,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Croatia,2016,2013,2017,0.85,0.67,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Croatia,2017,2013,2017,0.85,0.67,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Dom. Rep.,2015,2015,2017,0.65,0.54,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Dom. Rep.,2016,2015,2017,0.65,0.54,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Dom. Rep.,2017,2015,2017,0.65,0.54,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Ecuador,2008,2008,2010,0.74,0.6,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Ecuador,2009,2008,2010,0.74,0.6,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Ecuador,2010,2008,2010,0.74,0.6,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Fiji,2000,2000,2001,0.63,0.27,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Fiji,2001,2000,2001,0.63,0.27,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Fiji,2006,2006,2009,0.59,0.15,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Fiji,2007,2006,2009,0.59,0.15,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Fiji,2008,2006,2009,0.59,0.15,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Fiji,2009,2006,2009,0.59,0.15,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Ghana,2012,2012,2017,0.77,0.64,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Ghana,2013,2012,2017,0.77,0.64,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Ghana,2014,2012,2017,0.77,0.64,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Ghana,2015,2012,2017,0.77,0.64,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Ghana,2016,2012,2017,0.77,0.64,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Ghana,2017,2012,2017,0.77,0.64,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Honduras,2009,2009,2010,0.58,0.46,Military Coup,Third Wave,Democracy,Latin America and Caribbean
+Honduras,2010,2009,2010,0.58,0.46,Military Coup,Third Wave,Democracy,Latin America and Caribbean
+Hungary,2010,2010,2017,0.82,0.63,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Hungary,2011,2010,2017,0.82,0.63,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Hungary,2012,2010,2017,0.82,0.63,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Hungary,2013,2010,2017,0.82,0.63,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Hungary,2014,2010,2017,0.82,0.63,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Hungary,2015,2010,2017,0.82,0.63,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Hungary,2016,2010,2017,0.82,0.63,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Hungary,2017,2010,2017,0.82,0.63,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Lesotho,2015,2015,2017,0.71,0.56,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Lesotho,2016,2015,2017,0.71,0.56,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Lesotho,2017,2015,2017,0.71,0.56,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Libya,2014,2014,2017,0.51,0.27,Military Coup,Third Wave,Democracy,Middle East and North Africa
+Libya,2015,2014,2017,0.51,0.27,Military Coup,Third Wave,Democracy,Middle East and North Africa
+Libya,2016,2014,2017,0.51,0.27,Military Coup,Third Wave,Democracy,Middle East and North Africa
+Libya,2017,2014,2017,0.51,0.27,Military Coup,Third Wave,Democracy,Middle East and North Africa
+Macedonia,2005,2005,2012,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Macedonia,2006,2005,2012,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Macedonia,2007,2005,2012,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Macedonia,2008,2005,2012,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Macedonia,2009,2005,2012,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Macedonia,2010,2005,2012,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Macedonia,2011,2005,2012,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Macedonia,2012,2005,2012,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Madagascar,1997,1997,2002,0.57,0.45,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Madagascar,1998,1997,2002,0.57,0.45,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Madagascar,1999,1997,2002,0.57,0.45,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Madagascar,2000,1997,2002,0.57,0.45,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Madagascar,2001,1997,2002,0.57,0.45,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Madagascar,2002,1997,2002,0.57,0.45,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Malawi,1999,1999,2005,0.61,0.47,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Malawi,2000,1999,2005,0.61,0.47,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Malawi,2001,1999,2005,0.61,0.47,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Malawi,2002,1999,2005,0.61,0.47,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Malawi,2003,1999,2005,0.61,0.47,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Malawi,2004,1999,2005,0.61,0.47,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Malawi,2005,1999,2005,0.61,0.47,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Maldives,2012,2012,2017,0.6,0.35,Democratic Erosion,Third Wave,Democracy,South Asia
+Maldives,2013,2012,2017,0.6,0.35,Democratic Erosion,Third Wave,Democracy,South Asia
+Maldives,2014,2012,2017,0.6,0.35,Democratic Erosion,Third Wave,Democracy,South Asia
+Maldives,2015,2012,2017,0.6,0.35,Democratic Erosion,Third Wave,Democracy,South Asia
+Maldives,2016,2012,2017,0.6,0.35,Democratic Erosion,Third Wave,Democracy,South Asia
+Maldives,2017,2012,2017,0.6,0.35,Democratic Erosion,Third Wave,Democracy,South Asia
+Mali,2012,2012,2013,0.63,0.29,Military Coup,Third Wave,Democracy,Sub-Saharan Africa
+Mali,2013,2012,2013,0.63,0.29,Military Coup,Third Wave,Democracy,Sub-Saharan Africa
+Moldova,2000,2000,2006,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Moldova,2001,2000,2006,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Moldova,2002,2000,2006,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Moldova,2003,2000,2006,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Moldova,2004,2000,2006,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Moldova,2005,2000,2006,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Moldova,2006,2000,2006,0.66,0.47,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Moldova,2012,2012,2017,0.69,0.56,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Moldova,2013,2012,2017,0.69,0.56,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Moldova,2014,2012,2017,0.69,0.56,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Moldova,2015,2012,2017,0.69,0.56,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Moldova,2016,2012,2017,0.69,0.56,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Moldova,2017,2012,2017,0.69,0.56,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Nepal,2012,2012,2013,0.55,0.27,Military Coup,Third Wave,Democracy,South Asia
+Nepal,2013,2012,2013,0.55,0.27,Military Coup,Third Wave,Democracy,South Asia
+Nicaragua,1996,1996,1999,0.74,0.62,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,1997,1996,1999,0.74,0.62,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,1998,1996,1999,0.74,0.62,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,1999,1996,1999,0.74,0.62,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2003,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2004,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2005,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2006,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2007,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2008,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2009,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2010,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2011,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2012,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2013,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2014,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2015,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2016,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Nicaragua,2017,2003,2017,0.66,0.31,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Niger,1995,1995,1996,0.57,0.33,Military Coup,Third Wave,Democracy,Sub-Saharan Africa
+Niger,1996,1995,1996,0.57,0.33,Military Coup,Third Wave,Democracy,Sub-Saharan Africa
+Niger,2009,2009,2010,0.62,0.27,Military Coup,Third Wave,Democracy,Sub-Saharan Africa
+Niger,2010,2009,2010,0.62,0.27,Military Coup,Third Wave,Democracy,Sub-Saharan Africa
+Niger,2013,2013,2017,0.65,0.54,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Niger,2014,2013,2017,0.65,0.54,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Niger,2015,2013,2017,0.65,0.54,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Niger,2016,2013,2017,0.65,0.54,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Niger,2017,2013,2017,0.65,0.54,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Philippines,2001,2001,2005,0.63,0.5,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Philippines,2002,2001,2005,0.63,0.5,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Philippines,2003,2001,2005,0.63,0.5,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Philippines,2004,2001,2005,0.63,0.5,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Philippines,2005,2001,2005,0.63,0.5,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Poland,2013,2013,2017,0.91,0.73,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Poland,2014,2013,2017,0.91,0.73,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Poland,2015,2013,2017,0.91,0.73,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Poland,2016,2013,2017,0.91,0.73,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Poland,2017,2013,2017,0.91,0.73,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,1993,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,1994,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,1995,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,1996,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,1997,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,1998,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,1999,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2000,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2001,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2002,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2003,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2004,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2005,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2006,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2007,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2008,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2009,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2010,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2011,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2012,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2013,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2014,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2015,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2016,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Russia,2017,1993,2017,0.53,0.27,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Serbia,2006,2006,2017,0.69,0.45,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Serbia,2007,2006,2017,0.69,0.45,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Serbia,2008,2006,2017,0.69,0.45,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Serbia,2009,2006,2017,0.69,0.45,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Serbia,2010,2006,2017,0.69,0.45,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Serbia,2011,2006,2017,0.69,0.45,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Serbia,2012,2006,2017,0.69,0.45,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Serbia,2013,2006,2017,0.69,0.45,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Serbia,2014,2006,2017,0.69,0.45,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Serbia,2015,2006,2017,0.69,0.45,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Serbia,2016,2006,2017,0.69,0.45,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Serbia,2017,2006,2017,0.69,0.45,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Solomon Islands,1997,1997,2001,0.57,0.26,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Solomon Islands,1998,1997,2001,0.57,0.26,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Solomon Islands,1999,1997,2001,0.57,0.26,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Solomon Islands,2000,1997,2001,0.57,0.26,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Solomon Islands,2001,1997,2001,0.57,0.26,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+South Korea,2008,2008,2014,0.85,0.71,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+South Korea,2009,2008,2014,0.85,0.71,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+South Korea,2010,2008,2014,0.85,0.71,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+South Korea,2011,2008,2014,0.85,0.71,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+South Korea,2012,2008,2014,0.85,0.71,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+South Korea,2013,2008,2014,0.85,0.71,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+South Korea,2014,2008,2014,0.85,0.71,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Spain,2013,2013,2017,0.88,0.77,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Spain,2014,2013,2017,0.88,0.77,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Spain,2015,2013,2017,0.88,0.77,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Spain,2016,2013,2017,0.88,0.77,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Spain,2017,2013,2017,0.88,0.77,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Sri Lanka,2004,2004,2008,0.57,0.43,Democratic Erosion,Third Wave,Democracy,South Asia
+Sri Lanka,2005,2004,2008,0.57,0.43,Democratic Erosion,Third Wave,Democracy,South Asia
+Sri Lanka,2006,2004,2008,0.57,0.43,Democratic Erosion,Third Wave,Democracy,South Asia
+Sri Lanka,2007,2004,2008,0.57,0.43,Democratic Erosion,Third Wave,Democracy,South Asia
+Sri Lanka,2008,2004,2008,0.57,0.43,Democratic Erosion,Third Wave,Democracy,South Asia
+Thailand,2005,2005,2007,0.55,0.18,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Thailand,2006,2005,2007,0.55,0.18,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Thailand,2007,2005,2007,0.55,0.18,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Thailand,2013,2013,2016,0.55,0.14,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Thailand,2014,2013,2016,0.55,0.14,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Thailand,2015,2013,2016,0.55,0.14,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Thailand,2016,2013,2016,0.55,0.14,Military Coup,Third Wave,Democracy,East Asia and Pacific
+Turkey,2008,2008,2017,0.67,0.34,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Turkey,2009,2008,2017,0.67,0.34,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Turkey,2010,2008,2017,0.67,0.34,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Turkey,2011,2008,2017,0.67,0.34,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Turkey,2012,2008,2017,0.67,0.34,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Turkey,2013,2008,2017,0.67,0.34,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Turkey,2014,2008,2017,0.67,0.34,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Turkey,2015,2008,2017,0.67,0.34,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Turkey,2016,2008,2017,0.67,0.34,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Turkey,2017,2008,2017,0.67,0.34,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Ukraine,1997,1997,2002,0.59,0.4,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Ukraine,1998,1997,2002,0.59,0.4,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Ukraine,1999,1997,2002,0.59,0.4,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Ukraine,2000,1997,2002,0.59,0.4,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Ukraine,2001,1997,2002,0.59,0.4,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Ukraine,2002,1997,2002,0.59,0.4,Democratic Erosion,Third Wave,Democracy,Europe and Central Asia
+Ukraine,2010,2010,2015,0.64,0.38,Military Coup,Third Wave,Democracy,Europe and Central Asia
+Ukraine,2011,2010,2015,0.64,0.38,Military Coup,Third Wave,Democracy,Europe and Central Asia
+Ukraine,2012,2010,2015,0.64,0.38,Military Coup,Third Wave,Democracy,Europe and Central Asia
+Ukraine,2013,2010,2015,0.64,0.38,Military Coup,Third Wave,Democracy,Europe and Central Asia
+Ukraine,2014,2010,2015,0.64,0.38,Military Coup,Third Wave,Democracy,Europe and Central Asia
+Ukraine,2015,2010,2015,0.64,0.38,Military Coup,Third Wave,Democracy,Europe and Central Asia
+Vanuatu,1988,1988,1996,0.71,0.59,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Vanuatu,1989,1988,1996,0.71,0.59,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Vanuatu,1990,1988,1996,0.71,0.59,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Vanuatu,1991,1988,1996,0.71,0.59,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Vanuatu,1992,1988,1996,0.71,0.59,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Vanuatu,1993,1988,1996,0.71,0.59,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Vanuatu,1994,1988,1996,0.71,0.59,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Vanuatu,1995,1988,1996,0.71,0.59,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Vanuatu,1996,1988,1996,0.71,0.59,Democratic Erosion,Third Wave,Democracy,East Asia and Pacific
+Venezuela,1999,1999,2008,0.79,0.45,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Venezuela,2000,1999,2008,0.79,0.45,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Venezuela,2001,1999,2008,0.79,0.45,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Venezuela,2002,1999,2008,0.79,0.45,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Venezuela,2003,1999,2008,0.79,0.45,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Venezuela,2004,1999,2008,0.79,0.45,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Venezuela,2005,1999,2008,0.79,0.45,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Venezuela,2006,1999,2008,0.79,0.45,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Venezuela,2007,1999,2008,0.79,0.45,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Venezuela,2008,1999,2008,0.79,0.45,Democratic Erosion,Third Wave,Democracy,Latin America and Caribbean
+Zambia,2010,2010,2017,0.57,0.35,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Zambia,2011,2010,2017,0.57,0.35,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Zambia,2012,2010,2017,0.57,0.35,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Zambia,2013,2010,2017,0.57,0.35,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Zambia,2014,2010,2017,0.57,0.35,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Zambia,2015,2010,2017,0.57,0.35,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Zambia,2016,2010,2017,0.57,0.35,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Zambia,2017,2010,2017,0.57,0.35,Democratic Erosion,Third Wave,Democracy,Sub-Saharan Africa
+Albania,1937,1937,1940,0.19,0.05,,Pre-third Wave,Autocracy,Europe and Central Asia
+Albania,1938,1937,1940,0.19,0.05,,Pre-third Wave,Autocracy,Europe and Central Asia
+Albania,1939,1937,1940,0.19,0.05,,Pre-third Wave,Autocracy,Europe and Central Asia
+Albania,1940,1937,1940,0.19,0.05,,Pre-third Wave,Autocracy,Europe and Central Asia
+Algeria,1992,1992,1992,0.39,0.19,,Pre-third Wave,Autocracy,Middle East and North Africa
+Algeria,1965,1965,1966,0.2,0.09,,Pre-third Wave,Autocracy,Middle East and North Africa
+Algeria,1966,1965,1966,0.2,0.09,,Pre-third Wave,Autocracy,Middle East and North Africa
+Argentina,1950,1950,1956,0.41,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Argentina,1951,1950,1956,0.41,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Argentina,1952,1950,1956,0.41,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Argentina,1953,1950,1956,0.41,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Argentina,1954,1950,1956,0.41,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Argentina,1955,1950,1956,0.41,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Argentina,1956,1950,1956,0.41,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Argentina,1901,1901,1901,0.4,0.21,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Argentina,1962,1962,1962,0.51,0.28,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Argentina,1943,1943,1944,0.31,0.09,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Argentina,1944,1943,1944,0.31,0.09,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Austria,1919,1919,1919,0.46,0.3,,Pre-third Wave,Autocracy,Europe and Central Asia
+Bangladesh,1975,1975,1976,0.43,0.14,,Pre-third Wave,Autocracy,South Asia
+Bangladesh,1976,1975,1976,0.43,0.14,,Pre-third Wave,Autocracy,South Asia
+Bangladesh,1982,1982,1983,0.42,0.2,,Pre-third Wave,Autocracy,South Asia
+Bangladesh,1983,1982,1983,0.42,0.2,,Pre-third Wave,Autocracy,South Asia
+Benin,1965,1965,1966,0.35,0.18,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Benin,1966,1965,1966,0.35,0.18,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Benin,1970,1970,1973,0.27,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Benin,1971,1970,1973,0.27,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Benin,1972,1970,1973,0.27,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Benin,1973,1970,1973,0.27,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Bolivia,1964,1964,1965,0.28,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Bolivia,1965,1964,1965,0.28,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Brazil,1930,1930,1931,0.22,0.09,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Brazil,1931,1930,1931,0.22,0.09,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Brazil,1964,1964,1965,0.43,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Brazil,1965,1964,1965,0.43,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Bulgaria,1934,1934,1935,0.21,0.1,,Pre-third Wave,Autocracy,Europe and Central Asia
+Bulgaria,1935,1934,1935,0.21,0.1,,Pre-third Wave,Autocracy,Europe and Central Asia
+Burkina Faso,1965,1965,1967,0.42,0.19,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Burkina Faso,1966,1965,1967,0.42,0.19,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Burkina Faso,1967,1965,1967,0.42,0.19,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Burma/Myanmar,1962,1962,1963,0.46,0.08,,Pre-third Wave,Autocracy,East Asia and Pacific
+Burma/Myanmar,1963,1962,1963,0.46,0.08,,Pre-third Wave,Autocracy,East Asia and Pacific
+Burma/Myanmar,1942,1942,1943,0.23,0.11,,Pre-third Wave,Autocracy,East Asia and Pacific
+Burma/Myanmar,1943,1942,1943,0.23,0.11,,Pre-third Wave,Autocracy,East Asia and Pacific
+Burundi,1965,1965,1967,0.21,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Burundi,1966,1965,1967,0.21,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Burundi,1967,1965,1967,0.21,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Burundi,1987,1987,1988,0.21,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Burundi,1988,1987,1988,0.21,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Cambodia,1970,1970,1976,0.28,0.11,,Pre-third Wave,Autocracy,East Asia and Pacific
+Cambodia,1971,1970,1976,0.28,0.11,,Pre-third Wave,Autocracy,East Asia and Pacific
+Cambodia,1972,1970,1976,0.28,0.11,,Pre-third Wave,Autocracy,East Asia and Pacific
+Cambodia,1973,1970,1976,0.28,0.11,,Pre-third Wave,Autocracy,East Asia and Pacific
+Cambodia,1974,1970,1976,0.28,0.11,,Pre-third Wave,Autocracy,East Asia and Pacific
+Cambodia,1975,1970,1976,0.28,0.11,,Pre-third Wave,Autocracy,East Asia and Pacific
+Cambodia,1976,1970,1976,0.28,0.11,,Pre-third Wave,Autocracy,East Asia and Pacific
+Central African Republic,1963,1963,1967,0.27,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Central African Republic,1964,1963,1967,0.27,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Central African Republic,1965,1963,1967,0.27,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Central African Republic,1966,1963,1967,0.27,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Central African Republic,1967,1963,1967,0.27,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Chile,1924,1924,1928,0.29,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Chile,1925,1924,1928,0.29,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Chile,1926,1924,1928,0.29,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Chile,1927,1924,1928,0.29,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Chile,1928,1924,1928,0.29,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+China,1949,1949,1950,0.18,0.08,,Pre-third Wave,Autocracy,East Asia and Pacific
+China,1950,1949,1950,0.18,0.08,,Pre-third Wave,Autocracy,East Asia and Pacific
+Colombia,1946,1946,1954,0.26,0.12,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Colombia,1947,1946,1954,0.26,0.12,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Colombia,1948,1946,1954,0.26,0.12,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Colombia,1949,1946,1954,0.26,0.12,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Colombia,1950,1946,1954,0.26,0.12,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Colombia,1951,1946,1954,0.26,0.12,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Colombia,1952,1946,1954,0.26,0.12,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Colombia,1953,1946,1954,0.26,0.12,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Colombia,1954,1946,1954,0.26,0.12,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Comoros,1975,1975,1975,0.25,0.12,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Congo,1962,1962,1968,0.33,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Congo,1963,1962,1968,0.33,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Congo,1964,1962,1968,0.33,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Congo,1965,1962,1968,0.33,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Congo,1966,1962,1968,0.33,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Congo,1967,1962,1968,0.33,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Congo,1968,1962,1968,0.33,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Costa Rica,1917,1917,1917,0.33,0.21,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Costa Rica,1948,1948,1948,0.34,0.23,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1904,1904,1907,0.34,0.19,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1905,1904,1907,0.34,0.19,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1906,1904,1907,0.34,0.19,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1907,1904,1907,0.34,0.19,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1952,1952,1953,0.43,0.2,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1953,1952,1953,0.43,0.2,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1959,1959,1961,0.27,0.07,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1960,1959,1961,0.27,0.07,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1961,1959,1961,0.27,0.07,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1927,1927,1934,0.33,0.19,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1928,1927,1934,0.33,0.19,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1929,1927,1934,0.33,0.19,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1930,1927,1934,0.33,0.19,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1931,1927,1934,0.33,0.19,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1932,1927,1934,0.33,0.19,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1933,1927,1934,0.33,0.19,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Cuba,1934,1927,1934,0.33,0.19,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Czech Republic,1950,1950,1950,0.19,0.08,,Pre-third Wave,Autocracy,Europe and Central Asia
+Democratic Republic of Congo,1965,1965,1966,0.32,0.11,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Democratic Republic of Congo,1966,1965,1966,0.32,0.11,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Dom. Rep,1964,1964,1964,0.32,0.16,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Dom. Rep,1916,1916,1917,0.26,0.12,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Dom. Rep,1917,1916,1917,0.26,0.12,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Ecuador,1961,1961,1964,0.38,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Ecuador,1962,1961,1964,0.38,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Ecuador,1963,1961,1964,0.38,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Ecuador,1964,1961,1964,0.38,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Ecuador,1935,1935,1937,0.25,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Ecuador,1936,1935,1937,0.25,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Ecuador,1937,1935,1937,0.25,0.14,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Ecuador,1970,1970,1973,0.37,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Ecuador,1971,1970,1973,0.37,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Ecuador,1972,1970,1973,0.37,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Ecuador,1973,1970,1973,0.37,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Egypt,1952,1952,1954,0.22,0.06,,Pre-third Wave,Autocracy,Middle East and North Africa
+Egypt,1953,1952,1954,0.22,0.06,,Pre-third Wave,Autocracy,Middle East and North Africa
+Egypt,1954,1952,1954,0.22,0.06,,Pre-third Wave,Autocracy,Middle East and North Africa
+Equatorial Guinea,1971,1971,1973,0.18,0.04,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Equatorial Guinea,1972,1971,1973,0.18,0.04,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Equatorial Guinea,1973,1971,1973,0.18,0.04,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Estonia,1992,1992,1992,0.6,0.45,,Pre-third Wave,Autocracy,Europe and Central Asia
+Ghana,1962,1962,1966,0.34,0.16,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Ghana,1963,1962,1966,0.34,0.16,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Ghana,1964,1962,1966,0.34,0.16,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Ghana,1965,1962,1966,0.34,0.16,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Ghana,1966,1962,1966,0.34,0.16,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Ghana,1972,1972,1973,0.38,0.12,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Ghana,1973,1972,1973,0.38,0.12,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Greece,1935,1935,1937,0.38,0.05,,Pre-third Wave,Autocracy,Europe and Central Asia
+Greece,1936,1935,1937,0.38,0.05,,Pre-third Wave,Autocracy,Europe and Central Asia
+Greece,1937,1935,1937,0.38,0.05,,Pre-third Wave,Autocracy,Europe and Central Asia
+Greece,1922,1922,1923,0.41,0.27,,Pre-third Wave,Autocracy,Europe and Central Asia
+Greece,1923,1922,1923,0.41,0.27,,Pre-third Wave,Autocracy,Europe and Central Asia
+Greece,1966,1966,1968,0.42,0.08,,Pre-third Wave,Autocracy,Europe and Central Asia
+Greece,1967,1966,1968,0.42,0.08,,Pre-third Wave,Autocracy,Europe and Central Asia
+Greece,1968,1966,1968,0.42,0.08,,Pre-third Wave,Autocracy,Europe and Central Asia
+Guatemala,1952,1952,1956,0.41,0.09,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Guatemala,1953,1952,1956,0.41,0.09,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Guatemala,1954,1952,1956,0.41,0.09,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Guatemala,1955,1952,1956,0.41,0.09,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Guatemala,1956,1952,1956,0.41,0.09,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Haiti,1992,1992,1992,0.36,0.2,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Honduras,1973,1973,1973,0.27,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Honduras,1955,1955,1955,0.25,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Hungary,1947,1947,1950,0.28,0.12,,Pre-third Wave,Autocracy,Europe and Central Asia
+Hungary,1948,1947,1950,0.28,0.12,,Pre-third Wave,Autocracy,Europe and Central Asia
+Hungary,1949,1947,1950,0.28,0.12,,Pre-third Wave,Autocracy,Europe and Central Asia
+Hungary,1950,1947,1950,0.28,0.12,,Pre-third Wave,Autocracy,Europe and Central Asia
+Hungary,1940,1940,1945,0.35,0.16,,Pre-third Wave,Autocracy,Europe and Central Asia
+Hungary,1941,1940,1945,0.35,0.16,,Pre-third Wave,Autocracy,Europe and Central Asia
+Hungary,1942,1940,1945,0.35,0.16,,Pre-third Wave,Autocracy,Europe and Central Asia
+Hungary,1943,1940,1945,0.35,0.16,,Pre-third Wave,Autocracy,Europe and Central Asia
+Hungary,1944,1940,1945,0.35,0.16,,Pre-third Wave,Autocracy,Europe and Central Asia
+Hungary,1945,1940,1945,0.35,0.16,,Pre-third Wave,Autocracy,Europe and Central Asia
+Hungary,1919,1919,1919,0.37,0.18,,Pre-third Wave,Autocracy,Europe and Central Asia
+Iraq,1958,1958,1959,0.23,0.11,,Pre-third Wave,Autocracy,Middle East and North Africa
+Iraq,1959,1958,1959,0.23,0.11,,Pre-third Wave,Autocracy,Middle East and North Africa
+Italy,1921,1921,1929,0.39,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Italy,1922,1921,1929,0.39,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Italy,1923,1921,1929,0.39,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Italy,1924,1921,1929,0.39,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Italy,1925,1921,1929,0.39,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Italy,1926,1921,1929,0.39,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Italy,1927,1921,1929,0.39,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Italy,1928,1921,1929,0.39,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Italy,1929,1921,1929,0.39,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Kuwait,1986,1986,1987,0.28,0.09,,Pre-third Wave,Autocracy,Middle East and North Africa
+Kuwait,1987,1986,1987,0.28,0.09,,Pre-third Wave,Autocracy,Middle East and North Africa
+Kuwait,1976,1976,1977,0.3,0.1,,Pre-third Wave,Autocracy,Middle East and North Africa
+Kuwait,1977,1976,1977,0.3,0.1,,Pre-third Wave,Autocracy,Middle East and North Africa
+Laos,1976,1976,1976,0.23,0.07,,Pre-third Wave,Autocracy,East Asia and Pacific
+Laos,1959,1959,1962,0.34,0.21,,Pre-third Wave,Autocracy,East Asia and Pacific
+Laos,1960,1959,1962,0.34,0.21,,Pre-third Wave,Autocracy,East Asia and Pacific
+Laos,1961,1959,1962,0.34,0.21,,Pre-third Wave,Autocracy,East Asia and Pacific
+Laos,1962,1959,1962,0.34,0.21,,Pre-third Wave,Autocracy,East Asia and Pacific
+Lesotho,1969,1969,1971,0.36,0.12,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Lesotho,1970,1969,1971,0.36,0.12,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Lesotho,1971,1969,1971,0.36,0.12,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Liberia,1980,1980,1981,0.24,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Liberia,1981,1980,1981,0.24,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Liberia,1988,1988,1990,0.27,0.14,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Liberia,1989,1988,1990,0.27,0.14,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Liberia,1990,1988,1990,0.27,0.14,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Madagascar,1973,1973,1973,0.26,0.15,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Malawi,1971,1971,1972,0.22,0.07,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Malawi,1972,1971,1972,0.22,0.07,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Malaysia,1964,1964,1970,0.33,0.15,,Pre-third Wave,Autocracy,East Asia and Pacific
+Malaysia,1965,1964,1970,0.33,0.15,,Pre-third Wave,Autocracy,East Asia and Pacific
+Malaysia,1966,1964,1970,0.33,0.15,,Pre-third Wave,Autocracy,East Asia and Pacific
+Malaysia,1967,1964,1970,0.33,0.15,,Pre-third Wave,Autocracy,East Asia and Pacific
+Malaysia,1968,1964,1970,0.33,0.15,,Pre-third Wave,Autocracy,East Asia and Pacific
+Malaysia,1969,1964,1970,0.33,0.15,,Pre-third Wave,Autocracy,East Asia and Pacific
+Malaysia,1970,1964,1970,0.33,0.15,,Pre-third Wave,Autocracy,East Asia and Pacific
+Mali,1965,1965,1969,0.25,0.11,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Mali,1966,1965,1969,0.25,0.11,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Mali,1967,1965,1969,0.25,0.11,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Mali,1968,1965,1969,0.25,0.11,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Mali,1969,1965,1969,0.25,0.11,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Mauritania,1978,1978,1979,0.21,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Mauritania,1979,1978,1979,0.21,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Nepal,1961,1961,1961,0.25,0.11,,Pre-third Wave,Autocracy,South Asia
+Niger,1974,1974,1975,0.21,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Niger,1975,1974,1975,0.21,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Nigeria,1983,1983,1984,0.4,0.19,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Nigeria,1984,1983,1984,0.4,0.19,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Pakistan,1978,1978,1978,0.24,0.12,,Pre-third Wave,Autocracy,South Asia
+Panama,1946,1946,1947,0.32,0.18,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Panama,1947,1946,1947,0.32,0.18,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Peru,1919,1919,1920,0.28,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Peru,1920,1919,1920,0.28,0.15,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Peru,1948,1948,1949,0.32,0.09,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Peru,1949,1948,1949,0.32,0.09,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Peru,1968,1968,1969,0.44,0.1,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Peru,1969,1968,1969,0.44,0.1,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Philippines,1941,1941,1942,0.27,0.06,,Pre-third Wave,Autocracy,East Asia and Pacific
+Philippines,1942,1941,1942,0.27,0.06,,Pre-third Wave,Autocracy,East Asia and Pacific
+Philippines,1969,1969,1973,0.43,0.08,,Pre-third Wave,Autocracy,East Asia and Pacific
+Philippines,1970,1969,1973,0.43,0.08,,Pre-third Wave,Autocracy,East Asia and Pacific
+Philippines,1971,1969,1973,0.43,0.08,,Pre-third Wave,Autocracy,East Asia and Pacific
+Philippines,1972,1969,1973,0.43,0.08,,Pre-third Wave,Autocracy,East Asia and Pacific
+Philippines,1973,1969,1973,0.43,0.08,,Pre-third Wave,Autocracy,East Asia and Pacific
+Portugal,1926,1926,1927,0.26,0.05,,Pre-third Wave,Autocracy,Europe and Central Asia
+Portugal,1927,1926,1927,0.26,0.05,,Pre-third Wave,Autocracy,Europe and Central Asia
+Romania,1938,1938,1940,0.22,0.12,,Pre-third Wave,Autocracy,Europe and Central Asia
+Romania,1939,1938,1940,0.22,0.12,,Pre-third Wave,Autocracy,Europe and Central Asia
+Romania,1940,1938,1940,0.22,0.12,,Pre-third Wave,Autocracy,Europe and Central Asia
+Rwanda,1973,1973,1974,0.26,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Rwanda,1974,1973,1974,0.26,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Serbia,1940,1940,1942,0.16,0.06,,Pre-third Wave,Autocracy,Europe and Central Asia
+Serbia,1941,1940,1942,0.16,0.06,,Pre-third Wave,Autocracy,Europe and Central Asia
+Serbia,1942,1940,1942,0.16,0.06,,Pre-third Wave,Autocracy,Europe and Central Asia
+Seychelles,1977,1977,1978,0.29,0.11,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Seychelles,1978,1977,1978,0.29,0.11,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Sierra Leone,1967,1967,1968,0.4,0.18,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Sierra Leone,1968,1967,1968,0.4,0.18,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Somalia,1969,1969,1970,0.37,0.08,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Somalia,1970,1969,1970,0.37,0.08,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+South Korea,1972,1972,1972,0.3,0.14,,Pre-third Wave,Autocracy,East Asia and Pacific
+South Korea,1962,1962,1962,0.33,0.17,,Pre-third Wave,Autocracy,East Asia and Pacific
+Spain,1921,1921,1924,0.2,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Spain,1922,1921,1924,0.2,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Spain,1923,1921,1924,0.2,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Spain,1924,1921,1924,0.2,0.07,,Pre-third Wave,Autocracy,Europe and Central Asia
+Sudan,1969,1969,1969,0.23,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Sudan,1958,1958,1959,0.3,0.08,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Sudan,1959,1958,1959,0.3,0.08,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Sudan,1989,1989,1990,0.41,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Sudan,1990,1989,1990,0.41,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Suriname,1975,1975,1975,0.56,0.38,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Suriname,1991,1991,1991,0.71,0.58,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Swaziland,1973,1973,1973,0.22,0.1,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Syria,1958,1958,1959,0.31,0.09,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1959,1958,1959,0.31,0.09,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1949,1949,1952,0.33,0.16,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1950,1949,1952,0.33,0.16,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1951,1949,1952,0.33,0.16,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1952,1949,1952,0.33,0.16,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1963,1963,1970,0.28,0.08,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1964,1963,1970,0.28,0.08,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1965,1963,1970,0.28,0.08,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1966,1963,1970,0.28,0.08,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1967,1963,1970,0.28,0.08,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1968,1963,1970,0.28,0.08,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1969,1963,1970,0.28,0.08,,Pre-third Wave,Autocracy,Middle East and North Africa
+Syria,1970,1963,1970,0.28,0.08,,Pre-third Wave,Autocracy,Middle East and North Africa
+Thailand,1991,1991,1991,0.38,0.22,,Pre-third Wave,Autocracy,East Asia and Pacific
+Thailand,1977,1977,1978,0.26,0.13,,Pre-third Wave,Autocracy,East Asia and Pacific
+Thailand,1978,1977,1978,0.26,0.13,,Pre-third Wave,Autocracy,East Asia and Pacific
+Togo,1967,1967,1968,0.24,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Togo,1968,1967,1968,0.24,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Turkey,1952,1952,1961,0.46,0.19,,Pre-third Wave,Autocracy,Europe and Central Asia
+Turkey,1953,1952,1961,0.46,0.19,,Pre-third Wave,Autocracy,Europe and Central Asia
+Turkey,1954,1952,1961,0.46,0.19,,Pre-third Wave,Autocracy,Europe and Central Asia
+Turkey,1955,1952,1961,0.46,0.19,,Pre-third Wave,Autocracy,Europe and Central Asia
+Turkey,1956,1952,1961,0.46,0.19,,Pre-third Wave,Autocracy,Europe and Central Asia
+Turkey,1957,1952,1961,0.46,0.19,,Pre-third Wave,Autocracy,Europe and Central Asia
+Turkey,1958,1952,1961,0.46,0.19,,Pre-third Wave,Autocracy,Europe and Central Asia
+Turkey,1959,1952,1961,0.46,0.19,,Pre-third Wave,Autocracy,Europe and Central Asia
+Turkey,1960,1952,1961,0.46,0.19,,Pre-third Wave,Autocracy,Europe and Central Asia
+Turkey,1961,1952,1961,0.46,0.19,,Pre-third Wave,Autocracy,Europe and Central Asia
+Uganda,1985,1985,1986,0.25,0.13,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Uganda,1986,1985,1986,0.25,0.13,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Uganda,1964,1964,1972,0.42,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Uganda,1965,1964,1972,0.42,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Uganda,1966,1964,1972,0.42,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Uganda,1967,1964,1972,0.42,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Uganda,1968,1964,1972,0.42,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Uganda,1969,1964,1972,0.42,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Uganda,1970,1964,1972,0.42,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Uganda,1971,1964,1972,0.42,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Uganda,1972,1964,1972,0.42,0.09,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Uruguay,1933,1933,1933,0.57,0.45,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Uruguay,1921,1921,1921,0.47,0.3,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Uruguay,1935,1935,1935,0.48,0.29,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Venezuela,1949,1949,1949,0.44,0.11,,Pre-third Wave,Autocracy,Latin America and Caribbean
+Vietnam,1963,1963,1964,0.3,0.17,,Pre-third Wave,Autocracy,East Asia and Pacific
+Vietnam,1964,1963,1964,0.3,0.17,,Pre-third Wave,Autocracy,East Asia and Pacific
+Zambia,1969,1969,1974,0.32,0.2,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Zambia,1970,1969,1974,0.32,0.2,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Zambia,1971,1969,1974,0.32,0.2,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Zambia,1972,1969,1974,0.32,0.2,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Zambia,1973,1969,1974,0.32,0.2,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Zambia,1974,1969,1974,0.32,0.2,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Zanzibar,1964,1964,1964,0.21,0.02,,Pre-third Wave,Autocracy,Sub-Saharan Africa
+Armenia,2002,2002,2008,0.44,0.32,,Third Wave,Autocracy,Europe and Central Asia
+Armenia,2003,2002,2008,0.44,0.32,,Third Wave,Autocracy,Europe and Central Asia
+Armenia,2004,2002,2008,0.44,0.32,,Third Wave,Autocracy,Europe and Central Asia
+Armenia,2005,2002,2008,0.44,0.32,,Third Wave,Autocracy,Europe and Central Asia
+Armenia,2006,2002,2008,0.44,0.32,,Third Wave,Autocracy,Europe and Central Asia
+Armenia,2007,2002,2008,0.44,0.32,,Third Wave,Autocracy,Europe and Central Asia
+Armenia,2008,2002,2008,0.44,0.32,,Third Wave,Autocracy,Europe and Central Asia
+Azerbaijan,1994,1994,1994,0.4,0.26,,Third Wave,Autocracy,Europe and Central Asia
+Bahrain,2011,2011,2015,0.25,0.14,,Third Wave,Autocracy,Middle East and North Africa
+Bahrain,2012,2011,2015,0.25,0.14,,Third Wave,Autocracy,Middle East and North Africa
+Bahrain,2013,2011,2015,0.25,0.14,,Third Wave,Autocracy,Middle East and North Africa
+Bahrain,2014,2011,2015,0.25,0.14,,Third Wave,Autocracy,Middle East and North Africa
+Bahrain,2015,2011,2015,0.25,0.14,,Third Wave,Autocracy,Middle East and North Africa
+Bangladesh,2014,2014,2015,0.47,0.36,,Third Wave,Autocracy,South Asia
+Bangladesh,2015,2014,2015,0.47,0.36,,Third Wave,Autocracy,South Asia
+Burundi,2010,2010,2017,0.4,0.16,,Third Wave,Autocracy,Sub-Saharan Africa
+Burundi,2011,2010,2017,0.4,0.16,,Third Wave,Autocracy,Sub-Saharan Africa
+Burundi,2012,2010,2017,0.4,0.16,,Third Wave,Autocracy,Sub-Saharan Africa
+Burundi,2013,2010,2017,0.4,0.16,,Third Wave,Autocracy,Sub-Saharan Africa
+Burundi,2014,2010,2017,0.4,0.16,,Third Wave,Autocracy,Sub-Saharan Africa
+Burundi,2015,2010,2017,0.4,0.16,,Third Wave,Autocracy,Sub-Saharan Africa
+Burundi,2016,2010,2017,0.4,0.16,,Third Wave,Autocracy,Sub-Saharan Africa
+Burundi,2017,2010,2017,0.4,0.16,,Third Wave,Autocracy,Sub-Saharan Africa
+Cambodia,2010,2010,2017,0.35,0.24,,Third Wave,Autocracy,East Asia and Pacific
+Cambodia,2011,2010,2017,0.35,0.24,,Third Wave,Autocracy,East Asia and Pacific
+Cambodia,2012,2010,2017,0.35,0.24,,Third Wave,Autocracy,East Asia and Pacific
+Cambodia,2013,2010,2017,0.35,0.24,,Third Wave,Autocracy,East Asia and Pacific
+Cambodia,2014,2010,2017,0.35,0.24,,Third Wave,Autocracy,East Asia and Pacific
+Cambodia,2015,2010,2017,0.35,0.24,,Third Wave,Autocracy,East Asia and Pacific
+Cambodia,2016,2010,2017,0.35,0.24,,Third Wave,Autocracy,East Asia and Pacific
+Cambodia,2017,2010,2017,0.35,0.24,,Third Wave,Autocracy,East Asia and Pacific
+Central African Republic,1999,1999,2004,0.36,0.21,,Third Wave,Autocracy,Sub-Saharan Africa
+Central African Republic,2000,1999,2004,0.36,0.21,,Third Wave,Autocracy,Sub-Saharan Africa
+Central African Republic,2001,1999,2004,0.36,0.21,,Third Wave,Autocracy,Sub-Saharan Africa
+Central African Republic,2002,1999,2004,0.36,0.21,,Third Wave,Autocracy,Sub-Saharan Africa
+Central African Republic,2003,1999,2004,0.36,0.21,,Third Wave,Autocracy,Sub-Saharan Africa
+Central African Republic,2004,1999,2004,0.36,0.21,,Third Wave,Autocracy,Sub-Saharan Africa
+Comoros,1996,1996,1996,0.45,0.34,,Third Wave,Autocracy,Sub-Saharan Africa
+Congo,1997,1997,1998,0.46,0.18,,Third Wave,Autocracy,Sub-Saharan Africa
+Congo,1998,1997,1998,0.46,0.18,,Third Wave,Autocracy,Sub-Saharan Africa
+Egypt,2013,2013,2014,0.29,0.18,,Third Wave,Autocracy,Middle East and North Africa
+Egypt,2014,2013,2014,0.29,0.18,,Third Wave,Autocracy,Middle East and North Africa
+The Gambia,1992,1992,1995,0.48,0.11,,Third Wave,Autocracy,Sub-Saharan Africa
+The Gambia,1993,1992,1995,0.48,0.11,,Third Wave,Autocracy,Sub-Saharan Africa
+The Gambia,1994,1992,1995,0.48,0.11,,Third Wave,Autocracy,Sub-Saharan Africa
+The Gambia,1995,1992,1995,0.48,0.11,,Third Wave,Autocracy,Sub-Saharan Africa
+Guinea,2009,2009,2009,0.3,0.19,,Third Wave,Autocracy,Sub-Saharan Africa
+Guinea-Bissau,2010,2010,2013,0.49,0.24,,Third Wave,Autocracy,Sub-Saharan Africa
+Guinea-Bissau,2011,2010,2013,0.49,0.24,,Third Wave,Autocracy,Sub-Saharan Africa
+Guinea-Bissau,2012,2010,2013,0.49,0.24,,Third Wave,Autocracy,Sub-Saharan Africa
+Guinea-Bissau,2013,2010,2013,0.49,0.24,,Third Wave,Autocracy,Sub-Saharan Africa
+Haiti,2000,2000,2005,0.48,0.24,,Third Wave,Autocracy,Latin America and Caribbean
+Haiti,2001,2000,2005,0.48,0.24,,Third Wave,Autocracy,Latin America and Caribbean
+Haiti,2002,2000,2005,0.48,0.24,,Third Wave,Autocracy,Latin America and Caribbean
+Haiti,2003,2000,2005,0.48,0.24,,Third Wave,Autocracy,Latin America and Caribbean
+Haiti,2004,2000,2005,0.48,0.24,,Third Wave,Autocracy,Latin America and Caribbean
+Haiti,2005,2000,2005,0.48,0.24,,Third Wave,Autocracy,Latin America and Caribbean
+Hong Kong,1997,1997,1997,0.38,0.28,,Third Wave,Autocracy,East Asia and Pacific
+Ivory Coast,1998,1998,2000,0.42,0.26,,Third Wave,Autocracy,Sub-Saharan Africa
+Ivory Coast,1999,1998,2000,0.42,0.26,,Third Wave,Autocracy,Sub-Saharan Africa
+Ivory Coast,2000,1998,2000,0.42,0.26,,Third Wave,Autocracy,Sub-Saharan Africa
+Lesotho,1995,1995,1995,0.48,0.31,,Third Wave,Autocracy,Sub-Saharan Africa
+Liberia,2003,2003,2004,0.37,0.24,,Third Wave,Autocracy,Sub-Saharan Africa
+Liberia,2004,2003,2004,0.37,0.24,,Third Wave,Autocracy,Sub-Saharan Africa
+Madagascar,2009,2009,2010,0.49,0.23,,Third Wave,Autocracy,Sub-Saharan Africa
+Madagascar,2010,2009,2010,0.49,0.23,,Third Wave,Autocracy,Sub-Saharan Africa
+Nepal,1994,1994,1994,0.42,0.31,,Third Wave,Autocracy,South Asia
+Nepal,1997,1997,2003,0.43,0.23,,Third Wave,Autocracy,South Asia
+Nepal,1998,1997,2003,0.43,0.23,,Third Wave,Autocracy,South Asia
+Nepal,1999,1997,2003,0.43,0.23,,Third Wave,Autocracy,South Asia
+Nepal,2000,1997,2003,0.43,0.23,,Third Wave,Autocracy,South Asia
+Nepal,2001,1997,2003,0.43,0.23,,Third Wave,Autocracy,South Asia
+Nepal,2002,1997,2003,0.43,0.23,,Third Wave,Autocracy,South Asia
+Nepal,2003,1997,2003,0.43,0.23,,Third Wave,Autocracy,South Asia
+Niger,1999,1999,1999,0.42,0.31,,Third Wave,Autocracy,Sub-Saharan Africa
+Pakistan,1999,1999,2000,0.44,0.21,,Third Wave,Autocracy,South Asia
+Pakistan,2000,1999,2000,0.44,0.21,,Third Wave,Autocracy,South Asia
+Palestine,2007,2007,2008,0.49,0.22,,Third Wave,Autocracy,Middle East and North Africa
+Palestine,2008,2007,2008,0.49,0.22,,Third Wave,Autocracy,Middle East and North Africa
+Rwanda,1994,1994,1995,0.31,0.11,,Third Wave,Autocracy,Sub-Saharan Africa
+Rwanda,1995,1994,1995,0.31,0.11,,Third Wave,Autocracy,Sub-Saharan Africa
+Tajikistan,1993,1993,1995,0.34,0.17,,Third Wave,Autocracy,Europe and Central Asia
+Tajikistan,1994,1993,1995,0.34,0.17,,Third Wave,Autocracy,Europe and Central Asia
+Tajikistan,1995,1993,1995,0.34,0.17,,Third Wave,Autocracy,Europe and Central Asia
+Venezuela,2013,2013,2017,0.44,0.27,,Third Wave,Autocracy,Latin America and Caribbean
+Venezuela,2014,2013,2017,0.44,0.27,,Third Wave,Autocracy,Latin America and Caribbean
+Venezuela,2015,2013,2017,0.44,0.27,,Third Wave,Autocracy,Latin America and Caribbean
+Venezuela,2016,2013,2017,0.44,0.27,,Third Wave,Autocracy,Latin America and Caribbean
+Venezuela,2017,2013,2017,0.44,0.27,,Third Wave,Autocracy,Latin America and Caribbean
+Yemen,2014,2014,2017,0.36,0.1,,Third Wave,Autocracy,Middle East and North Africa
+Yemen,2015,2014,2017,0.36,0.1,,Third Wave,Autocracy,Middle East and North Africa
+Yemen,2016,2014,2017,0.36,0.1,,Third Wave,Autocracy,Middle East and North Africa
+Yemen,2017,2014,2017,0.36,0.1,,Third Wave,Autocracy,Middle East and North Africa
