@@ -10,6 +10,7 @@
 
 <body onload="init()">
 	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"></script>
 
 		<!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
 	    <!-- Slideshow container -->
@@ -39,11 +40,11 @@
 
 		<div id="container_checks">
 			<input type="checkbox" id="autocratize_dem" style="padding-top: 0" onclick="load_chart()" checked>
-			<p style="color:red">Autocratization episodes</p>
+			<p style="color:red">Autocratization episodes starting in democracies</p>
 		</div>
 		<div id="container_checks">
 			<input type="checkbox" id="autocratize_auto" onclick="load_chart()" checked>
-			<p style="color:blue">Autocratization episodes</p>
+			<p style="color:blue">Autocratization episodes (all)</p>
 		</div>
 		<div id="container_checks">
 			<input type="checkbox" id="democratize_auto" onclick="load_chart()" checked>
@@ -143,8 +144,34 @@
 				load_chart();
 				await sleep(40);
 			}
-			document.getElementById("next").removeAttribute("hidden");
-			document.getElementById("scene_select").removeAttribute("hidden");
+
+			const annotations = [
+			{
+				note: {
+				label: "Here is the annotation label",
+				title: "Wave 1"
+				},
+				type: d3.annotationCalloutCircle,
+				subject: {
+				radius: 42,         // circle radius
+				radiusPadding: 10   // white space around circle befor connector
+				},
+				color: ["red"],
+				x: 170,
+				y: 350,
+				dy: -45,
+				dx: 45
+			}
+			]
+		
+			const makeAnnotations = d3.annotation()
+				.annotations(annotations)
+				d3.select("#my_dataviz").selectAll('svg')
+				.append("g").style('pointer-events', 'none')
+				.style('box-shadow', '10px 5px 5px gray')
+				.call(makeAnnotations)
+				document.getElementById("next").removeAttribute("hidden");
+				document.getElementById("scene_select").removeAttribute("hidden");
 
 		}
 
@@ -379,10 +406,10 @@
 						tooltip.selectAll('p').remove();
 						tooltip.selectAll('h4').remove();
 						tooltip.append('h4').html(d);
-						tooltip.append('p').html(auto_dem_tmp[i]);
+						tooltip.append('p').html(auto_dem_tmp[i] + ' countries');
 						tooltip
-							.style("left", (d3.mouse(this)[0]) + "px")
-							.style("top", (d3.mouse(this)[1]) + "px")
+							.style("left", (d3.mouse(document.body)[0] + 15) + "px")
+							.style("top", (d3.mouse(document.body)[1]) + "px")
 					})
 					.on("click", function(d) {
 						update_year_div(d, auto_dem_tmp.filter(e => { return (e.Year == d)}));
@@ -418,10 +445,10 @@
 						tooltip.selectAll('p').remove();
 						tooltip.selectAll('h4').remove();
 						tooltip.append('h4').html(d);
-						tooltip.append('p').html(auto_auto_tmp[i]);
+						tooltip.append('p').html(auto_auto_tmp[i] + ' countries');
 						tooltip
-							.style("left", (d3.mouse(this)[0]+40) + "px")
-							.style("top", (d3.mouse(this)[1]) + "px")
+							.style("left", (d3.mouse(document.body)[0] + 15) + "px")
+							.style("top", (d3.mouse(document.body)[1]) + "px")
 					})
 					.on("click", function(d) {
 						update_year_div(d, auto_auto_tmp_full.filter(e => { return (e.Year == d)}));
@@ -458,10 +485,10 @@
 						tooltip.selectAll('p').remove();
 						tooltip.selectAll('h4').remove();
 						tooltip.append('h4').html(d);
-						tooltip.append('p').html(dem_auto_tmp[i]);
+						tooltip.append('p').html(dem_auto_tmp[i] + ' countries');
 						tooltip
-							.style("left", (d3.mouse(this)[0]+70) + "px")
-							.style("top", (d3.mouse(this)[1]) + "px")
+							.style("left", (d3.mouse(document.body)[0] + 15) + "px")
+							.style("top", (d3.mouse(document.body)[1]) + "px")
 					})
 					.on("click", function(d) {
 						update_year_div(d, dem_auto_tmp_full.filter(e => { return (e.Year == d)}));
@@ -552,35 +579,6 @@
 			}
 			dots[slideIndex - 1].className += " active";
         }
-	</script>
-
-	<script>
-
-		const annotations = [
-		{
-			note: {
-			label: "Here is the annotation label",
-			title: "Annotation title"
-			},
-			type: d3.annotationCalloutCircle,
-			subject: {
-			radius: 50,         // circle radius
-			radiusPadding: 10   // white space around circle befor connector
-			},
-			color: ["red"],
-			x: 80,
-			y: 180,
-			dy: -60,
-			dx: 60
-		}
-		]
-		
-		const makeAnnotations = d3.annotation()
-			.annotations(annotations)
-			d3.select("#example4")
-			.append("g")
-			.call(makeAnnotations)
-		
 	</script>
 </body>
 
